@@ -1,0 +1,103 @@
+/* style.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.lado{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lado img{
+    width: 70%;
+}
+
+.conteudo{
+    flex: 1;
+}
+
+.conteudo h2{
+    text-align: right;
+    color: purple;
+    font-weight: bold;
+}
+
+.conteudo{
+    flex: 1;
+}
+
+.conteudo h2{
+    text-align: right;
+    color: purple;
+    font-size: 50px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid purple;
+    padding-bottom: 10px;
+}
+
+fieldset{
+    border: 4px solid #f7caca;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+legend{
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.campo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.campo label{
+    width: 170px;
+    font-size: 18px;
+}
+
+.campo input,
+.campo textarea{
+    flex: 1;
+    border: none;
+    background-color: #f7caca;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.campo textarea{
+    height: 70px;
+    resize: none;
+}
+
+button{
+    width: 170px;
+    height: 40px;
+    border: none;
+    background-color: #f7caca;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+button:hover{
+    opacity: 0.8;
+}

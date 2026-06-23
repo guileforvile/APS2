@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <aside class="lado">
+            <img src="form1_back.jpg" alt="formulário">
+        </aside>
+
+        <section class="conteudo">
+
+            <h1>Dados da conta</h1>
+
+            <form>
+
+                <fieldset>
+                    <legend>Dados Pessoais:</legend>
+
+                    <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome">
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dados da Conta:</legend>
+
+                    <div class="campo">
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha">
+                    </div>
+
+                    <div class="campo">
+                        <label for="frase">Frase opcional:</label>
+                        <textarea id="frase"></textarea>
+                    </div>
+
+                </fieldset>
+
+                <button type="submit">enviar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

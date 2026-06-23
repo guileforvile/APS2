@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando HTML</title>
+    <style>
+        body {
+            /* Fundo branco e sem textura para corresponder ao segundo modelo */
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            color: #000000;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Estilização do título principal (H1) com linha inferior */
+        h1 {
+            color: #8c5a35; /* Tom de castanho */
+            font-size: 32px;
+            margin-top: 0;
+            margin-bottom: 25px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #8c5a35;
+        }
+
+        /* Estilização da tarja castanha para os subtítulos (H2) */
+        h2 {
+            background-color: #8c5a35;
+            color: #ffffff;
+            font-size: 22px;
+            padding: 8px 15px;
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* Moldura para as imagens, simulando a borda dupla do modelo */
+        .moldura-foto {
+            border: 3px solid #8c5a35;
+            padding: 6px;
+            background-color: #ffffff;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .moldura-foto img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Estudando HTML</h1>
+        
+        <p>Nossos estudos começaram falando a respeito de um item muito sério que é a organização. Isso porque a linguagem HTML é responsável apenas pela marcação dos elementos na janela do navegador. O HTML não cria nada, ele manda buscar ou utiliza as letrinhas que você digita.</p>
+        
+        <h2>Parágrafos</h2>
+        
+        <div class="moldura-foto">
+            <img src="ilustra1.jpg" alt="Livro com textos">
+        </div>
+
+        <p>Para colocarmos parágrafos, usamos os elementos "p" e "/p". Para fazer uma quebra de linha, mantendo o mesmo parágrafo, usamos o elemento "br". Temos ainda parágrafos especiais, denominados títulos, cabeçalhos ou headings em que são usados elementos de "h1" a "h6" e seus respectivos fechamentos de "/h1" a "/h6".</p>
+        
+        <h2>Imagens</h2>
+        
+        <div class="moldura-foto">
+            <img src="ilustra2.jpg" alt="Página de livro com imagem">
+        </div>
+
+        <p>Uma imagem aparece na janela do navegador pelo uso do elemento "img". Esse elemento possui o atributo "src", responsável pela localização da imagem. Para trabalhar melhor com a imagem, você pode colocá-la dentro das tags de marcação de parágrafo.</p>
+        
+    </div>
+
+</body>
+</html>

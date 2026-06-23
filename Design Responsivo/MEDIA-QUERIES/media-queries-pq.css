@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #000;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Empilha os itens um embaixo do outro */
+    gap: 30px;
+    max-width: 419px; /* Limita a largura para simular a tela pequena */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.4;
+    margin: 0;
+}
